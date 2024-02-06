@@ -136,6 +136,7 @@ export default function Registrar() {
                     type="password" 
                     name="password2"
                     id='password2' 
+                    autoComplete="off"
                     placeholder='Repite tu password'
                     className='w-full mt-3 p-3 border rounded-xl bg-gray-50'
                     value={repetirPassword}
