@@ -1,5 +1,5 @@
 import { createContext, useEffect, useState } from "react";
-import clienteAxios from "../config/ClienteAxios";
+import clienteAxios from "../config/clienteAxios";
 import { useNavigate } from 'react-router-dom'
 import io from "socket.io-client"
 import useAuth from "../hooks/useAuth";

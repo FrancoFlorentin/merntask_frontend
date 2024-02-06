@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import Alerta from "../components/Alerta"
 import PreviewProyecto from "../components/PreviewProyecto"
 import useProyectos from "../hooks/useProyectos"
