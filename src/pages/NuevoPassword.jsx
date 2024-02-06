@@ -86,6 +86,7 @@ export default function NuevoPassword() {
                         id='password' 
                         placeholder='Ingresa tu nuevo password'
                         className='w-full mt-3 p-3 border rounded-xl bg-gray-50'
+                        autoComplete="off"
                         value={password}
                         onChange={e => setPassword(e.target.value)}
                     />

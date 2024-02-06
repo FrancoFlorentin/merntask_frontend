@@ -119,6 +119,7 @@ export default function Registrar() {
                     type="password" 
                     name="password"
                     id='password' 
+                    autoComplete="off"
                     placeholder='Tu password'
                     className='w-full mt-3 p-3 border rounded-xl bg-gray-50'
                     value={password}
